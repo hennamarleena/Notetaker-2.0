@@ -16,10 +16,10 @@ export default function Nav() {
   }, [courseList, checkIfCoursesListIsEmpty]);
 
   const data = [
-    { icon: "/img/home-icon.png", label: "Home", path: "/home", pointerEvents: "" },
-    { icon: "/img/add-note-icon.png", label: "Add notes", path: "/createnotes", pointerEvents: createNotesViewDisabled ? "none" : "auto" },
-    { icon: "/img/list-square-bullet-icon.png", label: "View notes", path: "/listnotes", pointerEvents: "" },
-    { icon: "/img/description-icon.png", label: "Add a new course", path: "/addcourses", pointerEvents: "" },
+    { icon: "img/home-icon.png", label: "Home", path: "/home", pointerEvents: "" },
+    { icon: "img/add-note-icon.png", label: "Add notes", path: "/createnotes", pointerEvents: createNotesViewDisabled ? "none" : "auto" },
+    { icon: "img/list-square-bullet-icon.png", label: "View notes", path: "/listnotes", pointerEvents: "" },
+    { icon: "img/description-icon.png", label: "Add a new course", path: "/addcourses", pointerEvents: "" },
   ];
 
   return (
