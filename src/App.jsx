@@ -7,7 +7,7 @@ import useStore from './store/useStore';
 import './index.css';
 import '@mantine/core/styles.css';
 import { Container } from '@mantine/core';
-import Nav from './nav.jsx';
+import Nav from './Nav.jsx';
 
 function App() {
   const fetchCourses = useStore((state) => state.fetchCourses);
