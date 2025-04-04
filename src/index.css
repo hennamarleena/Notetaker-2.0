@@ -34,6 +34,7 @@ header h2 {
     padding-top: 50px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
+    background-color: #fefefe !important;
 }
 
 .mantine-Textarea-label,
@@ -45,6 +46,8 @@ header h2 {
     display: flex;
     flex-grow: 1;
     flex-direction: row;
+    background-color: #fefefe !important;
+
 }
 
 .nav-container {
@@ -54,7 +57,7 @@ header h2 {
 
 header {
     background-image: linear-gradient(to right, rgb(149, 128, 242), rgb(172, 172, 248));
-    color: white;
+    color: #FEFEFE;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: left;
@@ -69,8 +72,7 @@ header {
 nav {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    background-color: f4f4f4;
+    width: 400px;    
 }
 
 .m_8fdc1311 {
