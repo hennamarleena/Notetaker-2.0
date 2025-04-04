@@ -1,0 +1,122 @@
+#root {
+    min-height: 100vh;
+    font-family: "Inter", sans-serif !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: 200 !important;
+}
+
+header h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.mantine-Button-label {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* mantine navlink label text size */
+.m_1f6ac4c4 {
+    font-size: 18px !important;
+}
+
+.mantine-Container-root {
+    width: 100% !important;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.mantine-Textarea-label,
+.mantine-InputWrapper-label {
+    padding-bottom: 10px !important;
+}
+
+.main-content-flex {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.nav-container {
+    border-right: 1px solid #E5DFFF;
+    min-height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(149, 128, 242), rgb(172, 172, 248));
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: f4f4f4;
+}
+
+.m_8fdc1311 {
+    font-size: var(--text-fz, var(--mantine-font-size-md)) !important;
+    font-weight: normal !important;
+}
+
+.decorative-image {
+    max-height: 450px !important;
+    width: auto !important;
+}
+
+@media (max-width: 800px) {
+    .main-content-flex {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    nav {
+        width: 100%;
+    }
+    .nav-container {
+        border-right: 1px solid #E5DFFF;
+        min-height: 100%;
+    }
+    header {
+        flex-direction: column;
+    }
+    header h1 {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    header h2 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .deleteButton {
+        margin-top: 20px !important;
+    }
+    .decorative-image {
+        max-width: 90% !important;
+        height: auto !important;
+    }
+  }
+  @media (max-width: 1400px) {
+    .decorative-image {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+  }
