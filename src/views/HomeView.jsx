@@ -13,7 +13,7 @@ export default function HomeView() {
             </Text>
 
             <Image
-            src="./img/decorative-img.png"
+            src="../img/decorative-img.png"
             pt="50px"
             className="decorative-image"
             />
