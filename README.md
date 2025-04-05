@@ -3,7 +3,7 @@
 A React-based lecture note management app originally developed as a coursework project for a frontend course.  
 This updated 2.0 version expands on the original functionality with improved UI and user experience.
 
-Live demo of 2.0 version: [NoteTaker](https://notetaker2-demo.netlify.app/).
+Live demo of 2.0 version: [NoteTaker 2.0](https://notetaker2-demo.netlify.app/).
 
 Original version: [NoteTaker](https://github.com/hennamarleena/NoteTaker).
 
@@ -20,7 +20,7 @@ Primarily designed for desktop use.
 
 ---
 
-## What's wew in version 2.0
+## What's new in version 2.0
 
 ### Improved UI
 
