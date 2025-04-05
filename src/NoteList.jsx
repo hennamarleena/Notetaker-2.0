@@ -15,7 +15,7 @@ export default function NoteList() {
 
             {filteredNotes.length > 0 ? (
               <SimpleGrid 
-              cols={{ base: 1, sm: 1, md: 3 }} 
+              cols={{ base: 1, sm: 1, md: 2, lg: 3 }} 
               spacing="lg"
               mt="xl"
             >

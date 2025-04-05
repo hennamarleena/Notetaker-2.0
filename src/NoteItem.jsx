@@ -22,31 +22,35 @@ export default function NoteItem( {note} ) {
         radius="lg"
         mt="20px"
         >
-        <Flex direction={{ base: 'column', sm: 'row' }} justify="space-between" align="start" gap="md">
+  <Flex direction="column" justify="flex-start" align="start" gap="md">
+    <Flex direction="row" justify="space-between" align="center" style={{ width: '100%' }}>
+      <Box>
+        <Text size="sm" c="dimmed">
+          {formatDate(note.timestamp)}
+        </Text>
+        <Text fw={600} size="lg" mb="xs">
+          {note.course.name || "Unknown Course"}
+        </Text>
+      </Box>
+      <Button
+        variant="outline"
+        color="red"
+        size="sm"
+        onClick={clickHandler}
+        radius="xl"
+        className="deleteButton"
+      >
+        Delete
+      </Button>
+    </Flex>
+    
+    <Box>
+      <Text size="md" lh={1.6}>
+        {note.text || "No content available."}
+      </Text>
+    </Box>
+  </Flex>
+</Card>
 
-
-        <Box>
-            <Text size="sm" c="dimmed">
-                {formatDate(note.timestamp)}
-            </Text>
-            <Text fw={600} size="lg" mb="xs">
-                {note.course.name || "Unknown Course"}
-            </Text>
-            <Text size="md" lh={1.6}>
-                {note.text || "No content available."}
-            </Text>
-        </Box>
-        
-        <Button
-            variant="outline"
-            color="red"
-            size="sm"
-            onClick={clickHandler}
-            radius="xl"
-            >
-            Delete
-        </Button>
-        </Flex>
-        </Card>   
     )
 }
