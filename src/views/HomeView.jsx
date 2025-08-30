@@ -12,12 +12,6 @@ export default function HomeView() {
                 Start by creating a new course or adding a note.
             </Text>
 
-            <Image
-            src="/img/decorative-img.png"
-            pt="50px"
-            className="decorative-image"
-            />
-
         </>
     );
 }
